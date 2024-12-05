@@ -16,7 +16,7 @@ const Footer = () => {
           Ready to take <span>your</span> digital presence to the next level?
         </h1>
         <p className="my-5 text-center text-white-200 md:mt-10">
-          Reach out to me today and let's discuss how i can help you achieve
+          Reach out to me today and let&apos;s discuss how i can help you achieve
           your goals
         </p>
         <a href="mailto:nmudanya94@gmail.com">
