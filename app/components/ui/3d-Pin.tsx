@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 
-export const PinContainer = ({
+
+ const PinContainer = ({
   children,
   title,
   href,
@@ -164,3 +165,4 @@ export const PinPerspective = ({
     </motion.div>
   );
 };
+ export default PinContainer
