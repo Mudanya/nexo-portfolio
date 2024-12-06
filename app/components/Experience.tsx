@@ -1,6 +1,7 @@
 "use client";
 import { workExperience } from "@/data";
-import { Button } from "./ui/MovingBorder";
+import dynamic from "next/dynamic";
+const Button = dynamic(()=> import("./ui/MovingBorder"),{ssr:false});
 
 const Experience = () => {
   return (

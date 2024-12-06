@@ -10,7 +10,7 @@ import {
 import { useRef } from "react";
 import { cn } from "@/utils/cn";
 
-export function Button({
+export default function Button({
   borderRadius = "1.75rem",
   children,
   as: Component = "button",

@@ -1,6 +1,7 @@
 "use client";
+import dynamic from "next/dynamic";
 import { FaLocationArrow } from "react-icons/fa";
-import MagicButton from "./ui/MagicButton";
+const MagicButton= dynamic(()=>import("./ui/MagicButton"),{ssr:false});
 
 const Footer = () => {
   return (

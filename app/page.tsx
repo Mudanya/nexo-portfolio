@@ -1,9 +1,10 @@
 "use client";
 import Image from "next/image";
 import Hero from "./components/Hero";
-import Grid from "./components/Grid";
-import RecentProjects from "./components/RecentProjects";
-import { FloatingNav } from "./components/ui/FloatingNav";
+import dynamic from "next/dynamic";
+const RecentProjects  = dynamic(()=>import("./components/RecentProjects"),{ssr:false});
+const FloatingNav = dynamic(() => import("./components/ui/FloatingNav"),{ssr:false});
+const Grid = dynamic(() => import("./components/Grid"),{ssr:false});
 import { navItems } from "@/data";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";

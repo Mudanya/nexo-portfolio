@@ -1,8 +1,9 @@
 "use client";
+import dynamic from "next/dynamic";
 import { FaLocationArrow } from "react-icons/fa";
-import MagicButton from "./ui/MagicButton";
-import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+const MagicButton = dynamic(()=>import("./ui/MagicButton"),{ssr:false});
+const  Spotlight  = dynamic(()=>import("./ui/Spotlight"),{ssr:false});
+const  TextGenerateEffect  = dynamic(()=>import("./ui/TextGenerateEffect"),{ssr:false});
 
 const Hero = () => {
   return (

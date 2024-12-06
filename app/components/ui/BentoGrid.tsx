@@ -1,8 +1,9 @@
 "use client";
 import { cn } from "@/utils/cn";
-import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
+
 import dynamic from "next/dynamic";
 const GlobeDemo  = dynamic(() => import("./GridGlobe"), { ssr: false });
+const BackgroundGradientAnimation  = dynamic(() => import("./BackgroundGradientAnimation"), { ssr: false });
 
 import Lottie from "react-lottie";
 import { useState } from "react";
