@@ -1,7 +1,9 @@
 "use client";
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
-import { GlobeDemo } from "./GridGlobe";
+import dynamic from "next/dynamic";
+// const GlobeDemo  = dynamic(() => import("./GridGlobe"), { ssr: false });
+
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
@@ -105,7 +107,8 @@ export const BentoGridItem = ({
           <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
             {title}
           </div>
-          {id === 2 && <GlobeDemo />}
+          {/* {id === 2 && 
+          <GlobeDemo />} */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-3 absolute -right-3 lg:-right-2 w-fit">
               <div className="flex flex-col gap-5 lg:gap-8">
