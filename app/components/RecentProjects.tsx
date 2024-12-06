@@ -1,3 +1,4 @@
+"use client";
 import { projects } from "@/data";
 import { div } from "three/examples/jsm/nodes/Nodes.js";
 import dynamic from "next/dynamic";

@@ -1,3 +1,4 @@
+"use client";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorder";
 
