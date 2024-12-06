@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   return (
     <>
-      <div className=" pt-2 pb-40 sm:pb-36 md:pb-32">
+      <div className=" pt-2 pb-40 sm:pb-36 md:pb-32" id="home">
         <Spotlight
           className="-left-10 -top-40 h-screen md:-left-32 md:-top-20"
           fill="white"
