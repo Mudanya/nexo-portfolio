@@ -85,7 +85,7 @@ export const projects = [
     des: "Simplify the insurance by one click away fro insuring your household.",
     img: "/dp.svg",
     iconLists: ["/ngl.svg", "/tail.svg", "/ts.svg", "/ms-sql.svg"],
-    link: "https://chatbot-cloud-dev.icealion.com/",
+    link: "https://domestic-package.icealion.com/",
   },
   {
     id: 3,
